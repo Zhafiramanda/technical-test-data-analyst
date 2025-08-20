@@ -11,6 +11,6 @@ Terdapat 3 dataset terkait perilaku pengguna:
    - Kolom: id, date, client_id, card_id, amount, merchant_city, merchant_state, dll  
 
 Relasi antar tabel:
-users_data.id = cards_data.client_id = transactions_data.client_id
-cards_data.id = transactions_data.card_id
+- users_data.id = cards_data.client_id = transactions_data.client_id
+- cards_data.id = transactions_data.card_id
 
