@@ -2,7 +2,7 @@
 Submission for Technical Test 1 - Data Analyst
 
 ## 📂 Dataset
-Tes ini menggunakan 3 dataset publik terkait perilaku pengguna:
+Terdapat 3 dataset terkait perilaku pengguna:
 1. **users_data.csv** → berisi profil pengguna  
    - Kolom: id, current_age, gender, yearly_income, credit_score, dll  
 2. **cards_data.csv** → berisi informasi kartu yang dimiliki user  
