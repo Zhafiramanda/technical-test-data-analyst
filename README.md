@@ -14,3 +14,22 @@ Relasi antar tabel:
 - users_data.id = cards_data.client_id = transactions_data.client_id
 - cards_data.id = transactions_data.card_id
 
+---
+
+## 🛠 Tools yang Digunakan
+- **MySQL 8.0** → untuk query SQL & analisis data  
+- **MySQL Workbench** → untuk manajemen database  
+- **Google Looker Studio** → untuk visualisasi & dashboard  
+- **PowerPoint** → untuk presentasi (export PDF)
+  
+---
+
+## ▶️ Cara Menjalankan
+
+### 1. Import Dataset ke Database
+**MySQL**
+```sql
+CREATE DATABASE user_behavior;
+USE user_behavior;
+
+-- Import masing-masing CSV via Workbench: Table Data Import Wizard
