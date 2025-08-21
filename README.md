@@ -26,10 +26,30 @@ Relasi antar tabel:
 
 ## ▶️ Cara Menjalankan
 
-### 1. Import Dataset ke Database
-**MySQL**
+### 1. Membuat Database 
 ```sql
 CREATE DATABASE user_behavior;
 USE user_behavior;
+```
+### 2. Import Dataset (CSV) ke Database
+Gunakan **MySQL Workbench → Table Data Import Wizard** untuk mengimpor file CSV ke dalam tabel yang sesuai.  
+Pastikan nama tabel sesuai dengan nama file CSV:
+- `users_data` untuk **users_data.csv**
+- `cards_data` untuk **cards_data.csv**
+- `transactions_data` untuk **transactions_data.csv*
+  
+### 3. Menjalankan Query Analisis
+Salin atau jalankan query yang ada di file **queries.sql** untuk melakukan analisis. 
 
--- Import masing-masing CSV via Workbench: Table Data Import Wizard
+---
+
+## 📊 Visualisasi (Looker Studio)
+Dashboard berisi:
+1. **Monthly Active Users (MAU)**
+2. **Card Type Popularity**
+3. **Top 20 Spenders**
+4. **Top MCC Categories**
+
+Link Dashboard: *[https://lookerstudio.google.com/reporting/3ea18bb7-b3e7-4a36-86d6-a4b438bcfb44]*
+
+---
