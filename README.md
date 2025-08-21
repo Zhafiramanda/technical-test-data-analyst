@@ -32,11 +32,10 @@ CREATE DATABASE user_behavior;
 USE user_behavior;
 ```
 ### 2. Import Dataset (CSV) ke Database
-Gunakan **MySQL Workbench → Table Data Import Wizard** untuk mengimpor file CSV ke dalam tabel yang sesuai.  
-Pastikan nama tabel sesuai dengan nama file CSV:
-- `users_data` untuk **users_data.csv**
-- `cards_data` untuk **cards_data.csv**
-- `transactions_data` untuk **transactions_data.csv*
+Gunakan **MySQL Workbench → Table Data Import Wizard** untuk mengimpor file CSV.  
+- **users_data.csv**
+- **cards_data.csv**
+- **transactions_data.csv**
   
 ### 3. Menjalankan Query Analisis
 Salin atau jalankan query yang ada di file **queries.sql** untuk melakukan analisis. 
