@@ -40,7 +40,14 @@ Gunakan **MySQL Workbench → Table Data Import Wizard** untuk mengimpor file CS
 ### 3. Menjalankan Query Analisis
 Salin atau jalankan query yang ada di file **queries.sql** untuk melakukan analisis. 
 
----
+1. **Melihat total user unik & duplikasi**
+2. **Analisis proporsi user yang pernah / belum bertransaksi**
+3. **Menghitung Monthly Active Users (MAU)**
+4. **Analisis jenis kartu terpopuler**
+5. **Top 20 Spenders**
+6. **Analisis kategori merchant (MCC)**
+7. **Analisis kota dengan spending tertinggi**
+8. **Scorecards**
 
 ## 📊 Visualisasi (Looker Studio)
 Dashboard berisi:
@@ -52,3 +59,11 @@ Dashboard berisi:
 Link Dashboard: *[https://lookerstudio.google.com/reporting/3ea18bb7-b3e7-4a36-86d6-a4b438bcfb44]*
 
 ---
+
+## 📑 Deliverables
+- **queries.sql → kumpulan query SQL analisis**
+- **User Behavior Presentation.pdf → presentasi hasil analisis & insight**
+- **Dashboard (Looker Studio) → visualisasi**
+
+---
+
